@@ -96,7 +96,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://www.google.com',
+    baseUrl: 'http://localhost',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -199,15 +199,6 @@ exports.config = {
      */
     // before: function (capabilities, specs) {
     // },
-
-    beforeTest: async function (test, context) {
-
-        await browser.maximizeWindow();
-        await browser.url(this.baseUrl);
-        console.log("Launching MHQ application");
-        await browser.pause(10000);
-
-    },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
