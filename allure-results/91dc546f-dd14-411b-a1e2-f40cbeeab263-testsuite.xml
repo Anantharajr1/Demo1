@@ -1,0 +1,128 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673431107551' stop='1673431143553'>
+    <name>should open the url</name>
+    <title>should open the url</title>
+    <test-cases>
+        <test-case start='1673431107552' status='passed' stop='1673431119677'>
+            <name>should open the main url</name>
+            <title>should open the main url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673431107554' status='passed' stop='1673431114522'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='77b1d576-f0e0-4106-9639-8c98b981d21f-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673431114523' status='passed' stop='1673431114670'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='2a250884-20e6-492a-b490-b440c90c3aa1-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673431119678' status='broken' stop='1673431143549'>
+            <name>should mouse the profile and select the signup</name>
+            <title>should mouse the profile and select the signup</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673431119684' status='passed' stop='1673431119770'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='34cae021-7339-4923-9eb5-292833c5fa1d-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='170c205f-2c17-49cf-9080-58184c1ecd79-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673431119790' status='passed' stop='1673431119926'>
+                    <name>POST /session/:sessionId/element/2f46e36f-09b9-4fdf-8872-f022255f5a0a/click</name>
+                    <title>POST /session/:sessionId/element/2f46e36f-09b9-4fdf-8872-f022255f5a0a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673431119927' status='passed' stop='1673431119968'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='16018322-97cc-46ff-8122-8558203a55b6-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='d6318375-c537-4207-a67a-e83ae161a28b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673431119973' status='passed' stop='1673431129013'>
+                    <name>POST /session/:sessionId/element/6b37361c-bbc6-43ee-b88f-d4bffca89b3d/click</name>
+                    <title>POST /session/:sessionId/element/6b37361c-bbc6-43ee-b88f-d4bffca89b3d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673431132016' status='passed' stop='1673431132074'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='689e38aa-43c8-4370-988c-7d5091ec5012-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='0e633bf5-f3f5-41d9-9914-1eaff95fca85-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673431132083' status='passed' stop='1673431132247'>
+                    <name>POST /session/:sessionId/element/7ae45be0-d9bf-49fe-854c-77ee9c322363/value</name>
+                    <title>POST /session/:sessionId/element/7ae45be0-d9bf-49fe-854c-77ee9c322363/value</title>
+                    <attachments>
+                        <attachment title='Request' source='89beaf4d-5b83-44ba-810b-1f6bf5a49cf9-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673431137254' status='passed' stop='1673431137316'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dec47c04-2f8b-4018-b8f8-b155d0bd7fb7-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='732716a4-1e69-477b-9136-f7a8d72c3852-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673431137322' status='passed' stop='1673431137467'>
+                    <name>POST /session/:sessionId/element/7b40f772-bd87-48b9-bb6b-eda067d7f0b7/click</name>
+                    <title>POST /session/:sessionId/element/7b40f772-bd87-48b9-bb6b-eda067d7f0b7/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673431142477' status='passed' stop='1673431143546'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1cd4929e-4547-471c-ba77-74d5849aefe7-attachment.png' type='image/png' size='152782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>myntrasignuppage.acceptAlert is not a function</message>
+                <stack-trace>TypeError: myntrasignuppage.acceptAlert is not a function
+                    at Context.&lt;anonymous> (C:\Users\AnantharajRamamoorth\Documents\Gittest\Demo1\test\specs\myntraloginpage.js:37:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
