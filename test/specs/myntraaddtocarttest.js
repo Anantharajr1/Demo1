@@ -1,4 +1,6 @@
-describe('User should able to launch the myntra application url',() => {
+const myntraloginpage = require('../pageobjects/myntraloginpage')
+
+describe('User should able to launch the myntra application url and verifying the add to cart functionality',() => {
 
     it('User should able to open the mynta url', async() =>{
     
@@ -11,4 +13,6 @@ describe('User should able to launch the myntra application url',() => {
         await expect(browser).toHaveUrlContaining('myntra')
     
     })
+
+    
 })

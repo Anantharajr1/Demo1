@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673514949491' stop='1673514949726'>
+    <name>User should able to launch the myntra application url</name>
+    <title>User should able to launch the myntra application url</title>
+    <test-cases>
+        <test-case start='1673514949492' status='broken' stop='1673514949725'>
+            <name>User should able to open the mynta url</name>
+            <title>User should able to open the mynta url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673514949495' status='passed' stop='1673514949724'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f9c89db6-d641-425b-9038-963a248ecfd0-attachment.png' type='image/png' size='6439'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>myntraloginpage is not defined</message>
+                <stack-trace>ReferenceError: myntraloginpage is not defined
+                    at Context.&lt;anonymous> (C:\Users\AnantharajRamamoorth\Documents\Gittest\Demo1\test\specs\myntraaddtocarttest.js:5:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
